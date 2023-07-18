@@ -1,5 +1,12 @@
+body{
+    background-image: url("bg.png");
+}
 marquee {
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     padding: 10px 0;
-    background-color: lightblue;
+    background-color: black;
+    text-decoration-color: white;
+}
+.notices{
+    background-color: ivory;
 }

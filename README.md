@@ -1,7 +1,7 @@
 # Menu/ Nav
 > pending
 # Image Slider
-> Pending BUP
+> https://mdbootstrap.com/docs/standard/components/carousel/
 # Text Slider >> ok
 > https://www.w3docs.com/learn-html/html-marquee-tag.html || 
 > https://alljobs.teletalk.com.bd/bn/

@@ -1,53 +1,21 @@
+<div class="container">
+  <%= render "page/nav"%>
+</div>
+
+<div class="d-block w-100">
+  <%=render "page/home_slider" %>
+</div>
 
 <div class="container">
-  <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >
-    <% 3.times do |i| %>
-      <i class="fa-regular fa-bell"></i> &nbsp;
-      <a href="cvasu.ac.bd" onmouseover="this.stop();">Welcome to CVASU <%=i %></a>
-      &nbsp; &nbsp; &nbsp;&nbsp;
-    <% end %>
-  </marquee>
- </div>
+  <%=render "page/text_scroll" %>
+</div>
 
-<section class="container">
-   <%=render "page/all_notice" %>
-</section>
-<section class="container">
-  <h1 class="is-size-1"> Hello h1 </h1>
-  <h2 class="is-size-2 is-uppercase"> Hello h2 </h2>
-  <h3 class="is-size-3 has-text-weight-light"> Hello h3 </h3>
-  <h4 class="is-size-4 is-italic"> Hello h4 </h4>
-  <h5 class="is-size-5 has-text-weight-bold">  Hello h5 </h5>
-</section>
-<section class="container">
-  <h4 class="is-size-1 is-text-bold"> Pulma Tabs</h4>
-  <div class="tabs is-centered is-boxed">
-    <ul>
-      <li class="is-active">
-        <a>
-          <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
-          <span>Pictures</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
-          <span>Music</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
-          <span>Videos</span>
-        </a>
-      </li>
-      <li>
-        <a>
-          <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
-          <span>Documents</span>
-        </a>
-      </li>
-    </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-4"><%=image_tag "1.jpg" %></div>
+      <div class="col col-8"><%=render "page/all_notice" %></div>
+    </div>
   </div>
-</section>
+
 
