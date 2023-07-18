@@ -1,7 +1,11 @@
-#Login Form:
-> 
-# Text Slider:
+# Menu/ Nav
+> pending
+# Image Slider
+> Pending BUP
+# Text Slider >> ok
 > https://www.w3docs.com/learn-html/html-marquee-tag.html || 
 > https://alljobs.teletalk.com.bd/bn/
-# Font Awesome for icon in text slider
+# Font Awesome for icon in text slider >> ok
 > https://fontawesome.com/v6/docs/web/use-with/ruby-on-rails
+# 3/4 ta kore 300*300 Card/View
+> pending
