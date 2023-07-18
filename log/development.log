@@ -669,3 +669,81 @@ Processing by PageController#index as HTML
 Completed 200 OK in 69ms (Views: 63.7ms | ActiveRecord: 0.0ms | Allocations: 57244)
 
 
+Started GET "/" for 127.0.0.1 at 2023-07-18 12:14:55 +0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4084)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4186)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 14142)
+
+
+  
+ActionView::Template::Error (Missing partial page/_all_notice with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/cvasu/Documents/GitHub/website_template/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actiontext-7.0.5/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionmailbox-7.0.5/app/views"
+
+Did you mean?  action_text/attachables/missing_attachable
+               active_storage/blobs/blob
+               posts/post
+               action_text/attachment_galleries/attachment_gallery
+               action_text/attachables/remote_image
+               action_text/contents/content):
+    10:  </div>
+    11: 
+    12: <section class="container">
+    13:    <% render "page/all_notice" %>
+    14: </section>
+    15: <section class="container">
+    16:   <h1 class="is-size-1"> Hello h1 </h1>
+  
+app/views/page/index.html.erb:13
+Started GET "/" for 127.0.0.1 at 2023-07-18 12:15:30 +0600
+Processing by PageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2278)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2359)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3537)
+
+
+  
+ActionView::Template::Error (Missing partial page/_all_notice with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/cvasu/Documents/GitHub/website_template/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actiontext-7.0.5/app/views"
+  * "/home/cvasu/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/actionmailbox-7.0.5/app/views"
+
+Did you mean?  action_text/attachables/missing_attachable
+               active_storage/blobs/blob
+               posts/post
+               action_text/attachment_galleries/attachment_gallery
+               action_text/attachables/remote_image
+               action_text/contents/content):
+    10:  </div>
+    11: 
+    12: <section class="container">
+    13:    <%= render "page/all_notice" %>
+    14: </section>
+    15: <section class="container">
+    16:   <h1 class="is-size-1"> Hello h1 </h1>
+  
+app/views/page/index.html.erb:13
+Started GET "/" for 127.0.0.1 at 2023-07-18 12:16:11 +0600
+Processing by PageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/_all_notice.html.erb (Duration: 0.6ms | Allocations: 168)
+  Rendered page/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 667)
+  Rendered layouts/_nav.html.erb (Duration: 0.7ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 1734.5ms | Allocations: 180013)
+Completed 200 OK in 1739ms (Views: 1736.9ms | ActiveRecord: 0.0ms | Allocations: 181255)
+
+

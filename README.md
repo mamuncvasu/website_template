@@ -9,3 +9,5 @@
 > https://fontawesome.com/v6/docs/web/use-with/ruby-on-rails
 # 3/4 ta kore 300*300 Card/View
 > pending
+# Multi tab Notices
+> https://www.w3schools.com/bootstrap5/bootstrap_navs.php
