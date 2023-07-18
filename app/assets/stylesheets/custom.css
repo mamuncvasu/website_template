@@ -1,12 +1,18 @@
 body{
-    background-image: url("bg.png");
+    font-family: 'Tangerine';
+    /*background-image: url("bg.png");*/
 }
 marquee {
     /*border-radius: 20px;*/
     padding: 10px 0;
-    background-color: black;
-    text-decoration-color: white;
+    background-color: #1D1F37;
+}
+.scroll{
+    color: white;
+    text-decoration: none;
 }
 .notices{
     background-color: ivory;
 }
+
+

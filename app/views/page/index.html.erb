@@ -1,20 +1,23 @@
-<div class="container">
-  <%= render "page/nav"%>
-</div>
+<%= render "page/nav"%>
 
+<!--Home Courosol slide-->
 <div class="d-block w-100">
   <%=render "page/home_slider" %>
 </div>
 
-<div class="container">
+<!--Text scroller-->
+<div class="d-block w-100">
   <%=render "page/text_scroll" %>
 </div>
 
-
+<!--All Notices-->
   <div class="container">
     <div class="row">
-      <div class="col col-4"><%=image_tag "1.jpg" %></div>
-      <div class="col col-8"><%=render "page/all_notice" %></div>
+      <div class="col-4">
+        <img src="/assets/1.jpg" class="img-thumbnail">
+        <p>Cvasu Main Campus</p>
+      </div>
+      <div class="col-4"><%=render "page/all_notice" %></div>
     </div>
   </div>
 
