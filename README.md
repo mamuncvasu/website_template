@@ -1,13 +1,13 @@
 # Menu/ Nav
-> pending
+     pending
 # Image Slider
-> https://mdbootstrap.com/docs/standard/components/carousel/
+     https://mdbootstrap.com/docs/standard/components/carousel/
 # Text Slider >> ok
-> https://www.w3docs.com/learn-html/html-marquee-tag.html || 
-> https://alljobs.teletalk.com.bd/bn/
+     https://www.w3docs.com/learn-html/html-marquee-tag.html || 
+     https://alljobs.teletalk.com.bd/bn/
 # Font Awesome for icon in text slider >> ok
-> https://fontawesome.com/v6/docs/web/use-with/ruby-on-rails
+     https://fontawesome.com/v6/docs/web/use-with/ruby-on-rails
 # 3/4 ta kore 300*300 Card/View
-> pending
+     pending
 # Multi tab Notices
-> https://www.w3schools.com/bootstrap5/bootstrap_navs.php
+     https://www.w3schools.com/bootstrap5/bootstrap_navs.php

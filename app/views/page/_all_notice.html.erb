@@ -16,11 +16,25 @@
 <div class="tab-content ">
   <div class="tab-pane container active" id="home">
     <% 3.times do %>
-      Leo ipsum suspendisse scelerisque tincidunt sem maximus lorem elit dolor nec facilisis felis ut facilisis molestie cursus mi commodo ut facilisis ex eu magna vivamus.
-
-      Ex tortor cursus eget tincidunt leo hendrerit lorem suspendisse eros sit nulla sed et quisque massa quis hendrerit commodo morbi sit euismod ut purus maximus.
+      <div class="row border-bottom d-flex p-2 bd-highlight">
+      <p class="btn-primary fs-6" >
+        <i class="fa-regular fa-calendar-check"></i>
+        <b><%= Date.parse(DateTime.now.to_s).strftime("%a, %e %b %Y")%></b>
+      </p>
+      <p class="fs-6 fw-lighter">ইউনিভার্সিটি মালয়েশিয়া তেরেঙ্গানু’তে ইন্টার্নশিপ করতে যাচ্ছে সিভাসু’র ৫০ শিক্ষার্থী.</p>
+      </div>
     <% end %>
   </div>
-  <div class="tab-pane container fade" id="menu1">Menu 01  text</div>
+  <div class="tab-pane container fade" id="menu1">
+    <% 3.times do %>
+      <div class="row border-bottom">
+        <p class="fs-5">
+          <i class="fa-regular fa-calendar-check"></i>
+          <b><%= Date.parse(DateTime.tomorrow.to_s).strftime("%a, %e %b %Y")%></b>
+        </p>
+        <p class="fs-6 fw-lighter">ইউনিভার্সিটি মালয়েশিয়া তেরেঙ্গানু’তে ইন্টার্নশিপ করতে যাচ্ছে সিভাসু’র ৫০ শিক্ষার্থী.</p>
+      </div>
+    <% end %>
+  </div>
   <div class="tab-pane container fade" id="menu2">Menu 02  text</div>
 </div>
