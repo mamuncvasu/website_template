@@ -22,5 +22,16 @@
   </div>
 
 <!--Card-->
-<%= render "page/card" %>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+    </li>
+  </ul>
+  <div class="tab-content ">
+    <div class="tab-pane container active" id="home">
+      <%= render "page/card" %>
+    </div>
+  </div>
 
+</div>
