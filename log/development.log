@@ -3588,3 +3588,18 @@ Processing by PageController#index as HTML
 Completed 200 OK in 298ms (Views: 266.9ms | ActiveRecord: 0.0ms | Allocations: 59025)
 
 
+Started GET "/" for 127.0.0.1 at 2023-07-27 17:29:05 +0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/_nav.html.erb (Duration: 5.3ms | Allocations: 275)
+  Rendered page/_home_slider.html.erb (Duration: 8.1ms | Allocations: 270)
+  Rendered page/_text_scroll.html.erb (Duration: 1.2ms | Allocations: 205)
+  Rendered page/_all_notice.html.erb (Duration: 3.2ms | Allocations: 680)
+  Rendered page/_card.html.erb (Duration: 1.0ms | Allocations: 144)
+  Rendered page/index.html.erb within layouts/application (Duration: 24.8ms | Allocations: 2842)
+  Rendered layout layouts/application.html.erb (Duration: 185.4ms | Allocations: 52396)
+Completed 200 OK in 242ms (Views: 202.1ms | ActiveRecord: 0.0ms | Allocations: 59563)
+
+
